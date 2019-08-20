@@ -7,7 +7,7 @@
     "react-dom": "^16.9.0",
     "react-scripts": "3.1.1"
   },
-  "homepage": "http://drtoil.github.io/portofolio",
+  "homepage": "http://drtoil.github.io/portfolio",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
