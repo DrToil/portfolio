@@ -24,21 +24,26 @@ body {
   display: block;
   justify-content: center;
   align-items: center;
+  position: relative;
+  opacity: 0.9;
   
 }
 
-.headerImg img{
-  
+.headerImg img {
   width: 100%;
   margin: auto;
   height: auto;
-  position: relative;
+  
 }
 
-.headerImgItem h1 {
-  
+.headerImg h1 {
   position: absolute;
-  top: 0;
-  color: white;
+  top: 20px;
+  left: 65vw;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 100px;
+  color:white;
+  text-decoration: underline;
 }
 

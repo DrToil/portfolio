@@ -11,11 +11,8 @@ function App() {
             <div className='navItems'>Contact</div>
         </div>
         <div className='headerImg'>
-          <div><img src={bckimg} alt='backgorund header' />
-            <h1>Ahmed Ali</h1>
-          </div>
-          
-
+          <img src={bckimg} alt='backgorund header' />
+            <h1>Dr Toil</h1>
         </div>
 
     </div>
