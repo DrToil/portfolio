@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
+  background: black;
 }
 
 .headerNav {
@@ -24,26 +25,23 @@ body {
   display: block;
   justify-content: center;
   align-items: center;
-  position: relative;
-  opacity: 0.9;
-  
+  position: relative;  
 }
 
 .headerImg img {
   width: 100%;
   margin: auto;
   height: auto;
-  
+  opacity: .5;  
 }
 
 .headerImg h1 {
   position: absolute;
   top: 20px;
-  left: 65vw;
+  right: 5vw;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 200;
   font-size: 100px;
   color:white;
-  text-decoration: underline;
 }
 
