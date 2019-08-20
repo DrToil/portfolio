@@ -10,6 +10,7 @@ body {
   justify-content: flex-end;
   align-items: center;
   background: blueviolet;
+  
 }
 
 .navItems {
@@ -18,6 +19,19 @@ body {
   text-transform: uppercase;
   font-weight: 600;
   margin: 20px;
+  border: 1px solid white;
+  border-radius: 50px;
+  padding: 10px;
+  
+}
+
+.navItems:hover {
+  color: white;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 20px;
+  text-decoration: underline;
   
 }
 
