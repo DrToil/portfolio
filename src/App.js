@@ -8,34 +8,36 @@ function App() {
       <header>
         <div className="nav-container">
           <nav class="nav-checkbox">
-            <a href="#" className="logo">
+            <a href="#t" className="logo">
               <h1>(DT)/></h1>
             </a>
             <input id="tab-nav" type="checkbox" class="tab-nav" name="tabs" />
             <label for="tab-nav" class="tab-nav-label">
-              Menu
+              <span>|||</span>
             </label>
             <ul class="tab-content">
               <li>
-                <a href="#">Home</a>
+                <a href="#h">Home</a>
               </li>
               <li>
-                <a href="#">Blog</a>
+                <a href="#b">Blog</a>
               </li>
               <li>
-                <a href="#">About</a>
+                <a href="#a">About</a>
               </li>
               <li>
-                <a href="#">Contact</a>
+                <a href="#c">Contact</a>
               </li>
             </ul>
           </nav>
         </div>
       </header>
-      <div className="headerImg">
-        <img src={bckimg} alt="backgorund header" />
-        <h1>Dr Toil</h1>
-      </div>
+      <section>
+        <div className="headerImg">
+          <img src={bckimg} alt="backgorund header" />
+          <h1>Dr Toil</h1>
+        </div>
+      </section>
     </div>
   );
 }
