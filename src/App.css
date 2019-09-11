@@ -145,3 +145,40 @@ span {
   color:white;
 }
 
+#aboutSection {
+  background: #fff;
+  width: 100%;
+  text-align: center;
+}
+
+section h2 {
+    padding-top: 10px;
+    font-size: 40px;
+}
+
+section :last-child {
+  padding-bottom: 20px;
+}
+
+#skillSection {
+  background: 000;
+  width: 100%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+  height: 200px;
+  margin: 0;
+  padding: 0;
+}
+#skillSection h2 {
+  flex: 1;
+  align-self: flex-start;
+  justify-self: center;
+  
+}
+
+.flex-item {
+  flex: 1;
+}
