@@ -69,7 +69,7 @@ function App() {
         <p>Thank you for reading, I will look forward to hearing from you.</p>
       </section>
       <skills id='skillSection'>
-          <h2> skills </h2>
+          <h2> SKILLS </h2>
 
         <div className='flex-item'>HTML</div>
         <div className='flex-item'>CSS</div>
