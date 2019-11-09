@@ -76,6 +76,9 @@ function App() {
         <div className='flex-item'>MongoDB</div>
         <div className='flex-item'>GitHub</div>
       </skills>
+      <projects id='projectSection'>
+        <h2>PROJECTS</h2>
+      </projects>
     </div>
   );
 }

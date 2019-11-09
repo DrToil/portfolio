@@ -12,7 +12,7 @@ header {
   top: 0;
   z-index: 1000;
   width: 100%;
-  background:blueviolet;
+  background: blueviolet;
 }
 
 span {
@@ -67,11 +67,11 @@ span {
   left: 0;
   right: 0;
   transform-origin: left;
-  transform: scale(0,1);
+  transform: scale(0, 1);
   transition: transform ease-in-out 500ms;
 }
 .tab-content li a:hover::before {
-  transform: scale(1,1);
+  transform: scale(1, 1);
 }
 .tab-content li a::after {
   content: '';
@@ -87,37 +87,37 @@ span {
   transition: transform ease-in-out 500ms;
 }
 .tab-content li a:hover::after {
-  transform: scale(1,1);
+  transform: scale(1, 1);
 }
 
 @media screen and (max-width: 1280px) {
   .nav-container {
-      width: 100%;
+    width: 100%;
   }
 }
 @media screen and (max-width: 768px) {
   .tab-nav-label {
-      display: grid;
-      cursor: pointer;
-      grid-column: 3;
-      padding-right: 10px;
+    display: grid;
+    cursor: pointer;
+    grid-column: 3;
+    padding-right: 10px;
   }
   .tab-content {
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-column: 1/4;
-      text-align: center;
-      max-height: 0;
-      overflow: hidden;
-      transition: all ease-in-out 0.4s;
-      -o-transition: all ease-in-out 0.4s;
-      -webkit-transition: all ease-in-out 0.4s;
-   }
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column: 1/4;
+    text-align: center;
+    max-height: 0;
+    overflow: hidden;
+    transition: all ease-in-out 0.4s;
+    -o-transition: all ease-in-out 0.4s;
+    -webkit-transition: all ease-in-out 0.4s;
+  }
   .nav-checkbox input:checked ~ .tab-content {
-      max-height: 400px;
+    max-height: 400px;
   }
   .tab-content li {
-      padding: 10px 0;
+    padding: 10px 0;
   }
 }
 
@@ -125,14 +125,14 @@ span {
   display: block;
   justify-content: center;
   align-items: center;
-  position: relative;  
+  position: relative;
 }
 
 .headerImg img {
   width: 100%;
   margin: auto;
   height: auto;
-  opacity: .5;  
+  opacity: 0.5;
 }
 
 .headerImg h1 {
@@ -142,7 +142,7 @@ span {
   text-transform: uppercase;
   font-weight: 200;
   font-size: calc(10vw + 15px);
-  color:white;
+  color: white;
 }
 
 #aboutSection {
@@ -152,8 +152,8 @@ span {
 }
 
 section h2 {
-    padding-top: 10px;
-    font-size: 40px;
+  padding-top: 10px;
+  font-size: 40px;
 }
 
 section :last-child {
@@ -176,9 +176,14 @@ section :last-child {
   flex: 1;
   align-self: flex-start;
   justify-self: center;
-  
 }
 
 .flex-item {
   flex: 1;
+}
+
+#projectSection {
+  background: #fff;
+  width: 100%;
+  text-align: center;
 }
