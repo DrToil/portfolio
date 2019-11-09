@@ -1,44 +1,41 @@
-import React from "react";
-import "./App.css";
-import bckimg from "./img/bck-header-img.jpg";
+import React from 'react';
+import './App.css';
+import bckimg from './img/bck-header-img.jpg';
 
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
       <header>
-        <div className="nav-container">
-          <nav class="nav-checkbox">
-            <a href="#t" className="logo">
+        <div className='nav-container'>
+          <nav class='nav-checkbox'>
+            <a href='#t' className='logo'>
               <h1>(DT)/></h1>
             </a>
-            <input id="tab-nav" type="checkbox" class="tab-nav" name="tabs" />
-            <label for="tab-nav" class="tab-nav-label">
+            <input id='tab-nav' type='checkbox' class='tab-nav' name='tabs' />
+            <label for='tab-nav' class='tab-nav-label'>
               <span>|||</span>
             </label>
-            <ul class="tab-content">
+            <ul class='tab-content'>
               <li>
-                <a href="#h">Home</a>
+                <a href='#h'>Home</a>
               </li>
               <li>
-                <a href="#b">Blog</a>
+                <a href='#a'>About</a>
               </li>
               <li>
-                <a href="#a">About</a>
-              </li>
-              <li>
-                <a href="#c">Contact</a>
+                <a href='#c'>Contact</a>
               </li>
             </ul>
           </nav>
         </div>
       </header>
       <section>
-        <div className="headerImg">
-          <img src={bckimg} alt="backgorund header" />
+        <div className='headerImg'>
+          <img src={bckimg} alt='backgorund header' />
           <h1>Dr Toil</h1>
         </div>
       </section>
-      <section id="aboutSection">
+      <section id='aboutSection'>
         <h2>About Me</h2>
         <p>
           Technology is amazing it enables us to do more things, faster and
@@ -69,7 +66,7 @@ function App() {
         <p>Thank you for reading, I will look forward to hearing from you.</p>
       </section>
       <skills id='skillSection'>
-          <h2> SKILLS </h2>
+        <h2> SKILLS </h2>
 
         <div className='flex-item'>HTML</div>
         <div className='flex-item'>CSS</div>
@@ -78,7 +75,6 @@ function App() {
         <div className='flex-item'>React</div>
         <div className='flex-item'>MongoDB</div>
         <div className='flex-item'>GitHub</div>
-
       </skills>
     </div>
   );
